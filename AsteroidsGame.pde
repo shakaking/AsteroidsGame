@@ -6,7 +6,7 @@ boolean LEFTIsPressed = false;
 boolean RIGHTIsPressed = false;
 boolean UPIsPressed = false;
 Star[] starfield = new Star[400];
-PImage background;
+PImage earth;
 
 public void setup() 
 {
@@ -26,7 +26,7 @@ public void setup()
 }
 public void draw() 
 {
-  background(background);
+  background(earth);
   for (int i=0; i< starfield.length; i++)
     {
       stroke(1);
