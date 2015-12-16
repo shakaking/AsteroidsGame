@@ -11,7 +11,7 @@ PImage earth;
 public void setup() 
 {
   size(949,534);
-  background = loadImage("earth.jpg");
+  earth = loadImage("earth.jpg");
   ship = new SpaceShip();
   pewpew = new ArrayList<Bullet>();
   for(int i=0; i < starfield.length; i++)
